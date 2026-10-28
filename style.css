@@ -1254,12 +1254,6 @@ input:focus-visible {
   font-weight: 600;
 }
 
-.status-awarded {
-  background: #E0F2EE;
-  color: #1E6C5F;
-  border: 1px solid rgba(30, 108, 95, 0.2);
-}
-
 .status-planned {
   background: var(--c-lavender);
   color: #554472;
