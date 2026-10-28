@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Shyamli Bakale, a first-year BTech student at Newton School of Technology in Pune, India, exploring Computer Science, AI, and creative technology.">
+  <meta name="author" content="Shyamli Bakale">
+  <meta name="theme-color" content="#FAF8F5">
+
+  <title>Shyamli Bakale · Student & Developer</title>
+
+  <!-- Google Fonts: Editorial Serif + Clean Sans + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+  <!-- ========================================================================
+       Navigation Bar
+       ======================================================================== -->
+  <header class="site-nav">
+    <div class="container nav-container">
+      <a href="#top" class="nav-brand" aria-label="Shyamli Bakale Home">
+        <span class="monogram">SB</span>
+        <span class="brand-name">Shyamli Bakale</span>
+      </a>
+
+      <!-- Pure CSS mobile menu toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-btn" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#journey" class="nav-link">Journey</a>
+        <a href="#beyond" class="nav-link">Beyond Code</a>
+        <a href="#contact" class="nav-cta">Say Hello</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         Hero Section
+         ====================================================================== -->
+    <section class="section hero" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="hero-badge-spark">✦</span>
+            <span>CS STUDENT · ASPIRING AI DEVELOPER</span>
+          </div>
+
+          <h1 id="hero-heading" class="hero-title">
+            Hi, I'm Shyamli.
+          </h1>
+
+          <div class="hero-tagline">
+            "Part code, part creativity, always curious."
+          </div>
+
+          <p class="hero-intro">
+            I am a first-year BTech student at Newton School of Technology in Pune, exploring computer science, artificial intelligence, frontend design, and automation. I love taking concepts from initial sketches to living, functional software.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">
+              Explore My Work <span class="arrow">↓</span>
+            </a>
+            <a href="#contact" class="link-secondary">
+              Get in Touch →
+            </a>
+          </div>
+
+          <div class="hero-highlights">
+            <div class="hero-pill">
+              <span class="hero-pill-dot dot-mint"></span>
+              <span>Newton School of Technology, Pune</span>
+            </div>
+            <div class="hero-pill">
+              <span class="hero-pill-dot dot-peach"></span>
+              <span>First-Year BTech</span>
+            </div>
+            <div class="hero-pill">
+              <span class="hero-pill-dot dot-lilac"></span>
+              <span>Open to Collaborations</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Abstract CSS Illustration (No Photographs) -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="artboard">
+            
+            <!-- Layer 1: Code Snippet Card -->
+            <div class="art-card-code">
+              <div class="code-header">
+                <div class="window-dots">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                </div>
+                <span class="file-name">shyamli.config.js</span>
+              </div>
+              <div class="code-snippet">
+                <span class="code-keyword">const</span> <span class="code-var">builder</span> = {<br>
+                &nbsp;&nbsp;role: <span class="code-str">"CS Student @ NST"</span>,<br>
+                &nbsp;&nbsp;curiosity: [<span class="code-str">"AI"</span>, <span class="code-str">"Frontend"</span>, <span class="code-str">"Workflows"</span>],<br>
+                &nbsp;&nbsp;mindset: <span class="code-str">"Learn by building"</span><br>
+                };
+              </div>
+            </div>
+
+            <!-- Layer 2: Music & Creative Inspiration Card -->
+            <div class="art-card-music">
+              <div class="music-title">
+                <span>The Creative Spark</span>
+                <span class="music-badge">Piano & Poetry</span>
+              </div>
+              <!-- CSS Piano Keys Motif -->
+              <div class="piano-keys">
+                <div class="white-key has-black"></div>
+                <div class="white-key has-black"></div>
+                <div class="white-key"></div>
+                <div class="white-key has-black"></div>
+                <div class="white-key has-black"></div>
+                <div class="white-key has-black"></div>
+                <div class="white-key"></div>
+              </div>
+              <div class="music-quote">
+                ♪ Structure in harmony, precision in rhythm.
+              </div>
+            </div>
+
+            <!-- Layer 3: Decorative Shapes -->
+            <div class="art-shape-star">✦</div>
+            <div class="art-shape-circle"></div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         About Me Section
+         ====================================================================== -->
+    <section id="about" class="section section-subtle" aria-labelledby="about-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">01 / Profile</span>
+          <h2 id="about-heading" class="section-title">About <em>Me</em></h2>
+          <p class="section-desc">
+            A first-year engineering student blending technical discipline with creative curiosity.
+          </p>
+        </header>
+
+        <div class="about-grid">
+          <!-- Main Narrative Card -->
+          <article class="about-card main-card">
+            <span class="about-card-tag">Student & Builder</span>
+            <h3>Building Foundations, One Project at a Time</h3>
+            <p>
+              I am a first-year BTech student at Newton School of Technology in Pune, India. My journey into tech is driven by an urge to understand how things work under the hood and how software can solve genuine everyday problems.
+            </p>
+            <p>
+              Rather than sticking strictly to textbook theory, I enjoy learning by building — whether that means exploring modern web standards, connecting automated workflows through n8n, experimenting with AI APIs, or collaborating with peers on hackathon prototypes.
+            </p>
+            <p>
+              My goal is to cultivate a solid foundation in computer science and data structures, contribute meaningfully to open-source communities, and build thoughtful applications that bring clarity and utility to real people.
+            </p>
+
+            <div class="student-badges">
+              <div class="student-badge-item">
+                <span class="badge-icon">🎓</span>
+                <span>BTech in CS & AI (1st Year)</span>
+              </div>
+              <div class="student-badge-item">
+                <span class="badge-icon">📍</span>
+                <span>Newton School of Technology, Pune</span>
+              </div>
+              <div class="student-badge-item">
+                <span class="badge-icon">💡</span>
+                <span>Hands-on Tinkering</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Creative Influence Card -->
+          <article class="about-card creative-card">
+            <span class="about-card-tag">Creative Balance</span>
+            <h3>The Music & Words Behind the Code</h3>
+            <p>
+              Outside of the terminal and lecture halls, I spend a significant amount of my time immersed in music, songwriting, poetry, and playing the piano.
+            </p>
+            
+            <div class="creative-list">
+              <div class="creative-item">
+                <span class="creative-icon">🎹</span>
+                <div>
+                  <h4>Piano & Harmony</h4>
+                  <p>Playing the piano teaches patience, phrasing, and the beauty of structured patterns.</p>
+                </div>
+              </div>
+
+              <div class="creative-item">
+                <span class="creative-icon">✍️</span>
+                <div>
+                  <h4>Songwriting & Poetry</h4>
+                  <p>Writing lyrics trains me to look closely at nuances, communicate clearly, and tell genuine stories.</p>
+                </div>
+              </div>
+
+              <div class="creative-item">
+                <span class="creative-icon">🌿</span>
+                <div>
+                  <h4>Cross-Disciplinary Thinking</h4>
+                  <p>Creativity and code aren't separate worlds — both require intuition, rhythm, and iterative refinement.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Technical Skills Section
+         ====================================================================== -->
+    <section id="skills" class="section" aria-labelledby="skills-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">02 / Toolkit</span>
+          <h2 id="skills-heading" class="section-title">Technical <em>Skills</em></h2>
+          <p class="section-desc">
+            Technologies and tools I have explored, worked with in projects, or am actively studying.
+          </p>
+        </header>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Programming -->
+          <div class="skill-category-card cat-programming">
+            <div class="skill-cat-header">
+              <h3><span class="symbol">&lt;/&gt;</span> Programming</h3>
+              <span class="skill-cat-pill">Core Languages</span>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip chip-accent-lilac">Python</span>
+              <span class="skill-chip chip-accent-lilac">JavaScript</span>
+              <span class="skill-chip chip-accent-lilac">C</span>
+              <span class="skill-chip chip-accent-lilac">C++</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Web Development -->
+          <div class="skill-category-card cat-web">
+            <div class="skill-cat-header">
+              <h3><span class="symbol">🌐</span> Web Development</h3>
+              <span class="skill-cat-pill">Frontend Stack</span>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip chip-accent-mint">HTML5</span>
+              <span class="skill-chip chip-accent-mint">CSS3</span>
+              <span class="skill-chip chip-accent-mint">
+                ReactJS <span class="chip-status">Currently Learning</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- Category 3: Tools & Technologies -->
+          <div class="skill-category-card cat-tools">
+            <div class="skill-cat-header">
+              <h3><span class="symbol">⚡</span> Tools & Technologies</h3>
+              <span class="skill-cat-pill">Workflow & Cloud</span>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip chip-accent-blue">Git &amp; GitHub</span>
+              <span class="skill-chip chip-accent-blue">n8n</span>
+              <span class="skill-chip chip-accent-blue">Vercel</span>
+              <span class="skill-chip chip-accent-blue">Docker</span>
+              <span class="skill-chip chip-accent-blue">ngrok</span>
+              <span class="skill-chip chip-accent-blue">Supabase</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Areas of Interest -->
+          <div class="skill-category-card cat-interests">
+            <div class="skill-cat-header">
+              <h3><span class="symbol">🌱</span> Areas of Interest</h3>
+              <span class="skill-cat-pill">Exploration</span>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip chip-accent-peach">Artificial Intelligence</span>
+              <span class="skill-chip chip-accent-peach">Frontend Development</span>
+              <span class="skill-chip chip-accent-peach">Automation</span>
+              <span class="skill-chip chip-accent-peach">Data Structures &amp; Algorithms</span>
+              <span class="skill-chip chip-accent-peach">Open Source</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Featured Projects Section
+         ====================================================================== -->
+    <section id="projects" class="section section-subtle" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">03 / Selected Works</span>
+          <h2 id="projects-heading" class="section-title">Featured <em>Projects</em></h2>
+          <p class="section-desc">
+            A curated look at academic challenges, hackathon explorations, and conceptual software systems.
+          </p>
+        </header>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: TravelMind AI -->
+          <article class="project-card accent-mint">
+            <!-- CSS Visual (No Screenshots) -->
+            <div class="project-visual visual-mint" aria-hidden="true">
+              <div class="travel-widget">
+                <div class="travel-widget-top">
+                  <span>NST CHALLENGE PROJECT</span>
+                  <span>AI ITINERARY</span>
+                </div>
+                <div class="travel-route">
+                  <span>Pune</span>
+                  <div class="travel-route-line">
+                    <span class="travel-route-plane">✈</span>
+                  </div>
+                  <span>Kyoto</span>
+                </div>
+                <div class="travel-tags">
+                  <span class="travel-badge">5 Days</span>
+                  <span class="travel-badge">Budget Optimized</span>
+                  <span class="travel-badge">Culture &amp; Cafes</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-meta-bar">
+                <span class="project-tag">Collaborative Project · NST</span>
+                <span class="status-badge status-awarded">Scored 19/20</span>
+              </div>
+
+              <h3 class="project-title">TravelMind AI</h3>
+              
+              <p class="project-desc">
+                An AI-powered travel-planning application designed to generate personalized itineraries using destination details, budget limits, travel dates, passenger counts, and curated traveler preferences. Built with a teammate for an NST challenge.
+              </p>
+
+              <div class="achievement-callout">
+                <span class="trophy">🏆</span>
+                <span>Team scored 19/20 in the project challenge — highest score in the cohort challenge.</span>
+              </div>
+
+              <div class="project-details">
+                <div class="project-details-title">My Contributions:</div>
+                <ul>
+                  <li>Developed the interactive frontend user interface.</li>
+                  <li>Constructed and integrated n8n automation workflows.</li>
+                  <li>Bridged user inputs with the workflow engine for dynamic itinerary generation.</li>
+                </ul>
+              </div>
+
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">n8n</span>
+                <span class="tech-tag">REST APIs</span>
+                <span class="tech-tag">Vercel</span>
+                <span class="tech-tag">ngrok</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: SafeCity -->
+          <article class="project-card accent-pink">
+            <!-- CSS Visual (No Screenshots) -->
+            <div class="project-visual visual-pink" aria-hidden="true">
+              <div class="safecity-widget">
+                <div class="shield-radar">
+                  <span class="radar-ping"></span>
+                  <span class="shield-icon">🛡️</span>
+                </div>
+                <div class="safecity-info">
+                  <div class="safecity-status">Safety System</div>
+                  <div class="safecity-headline">Privacy-First Protection</div>
+                  <div class="safecity-sub">Offline fallback &amp; signal alerts</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-meta-bar">
+                <span class="project-tag">Hackathon Concept · Team StackOverHack</span>
+                <span class="status-badge status-hackathon">Hackathon Concept</span>
+              </div>
+
+              <h3 class="project-title">SafeCity</h3>
+              
+              <p class="project-desc">
+                A privacy-focused public-safety application concept explored during a hackathon with Team StackOverHack, examining how AI and software can address urgent, practical physical safety challenges.
+              </p>
+
+              <div class="project-details">
+                <div class="project-details-title">Proposed Concept Features:</div>
+                <ul>
+                  <li>AI-assisted detection of potential distress signals.</li>
+                  <li>Rapid emergency alerts and secure location sharing.</li>
+                  <li>Exploration of offline-first and mesh communication capabilities.</li>
+                </ul>
+              </div>
+
+              <div class="project-tech">
+                <span class="tech-tag">Public Safety AI</span>
+                <span class="tech-tag">Location Logic</span>
+                <span class="tech-tag">Offline Exploration</span>
+                <span class="tech-tag">Rapid Prototyping</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Experience and Achievements Section
+         ====================================================================== -->
+    <section id="experience" class="section" aria-labelledby="experience-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">04 / Milestones</span>
+          <h2 id="experience-heading" class="section-title">Experience &amp; <em>Achievements</em></h2>
+          <p class="section-desc">
+            Highlights from community involvement, open-source exploration, and student technical initiatives.
+          </p>
+        </header>
+
+        <div class="experience-grid">
+          
+          <!-- Experience 1: Open Source Exploration -->
+          <article class="experience-card">
+            <span class="exp-type-badge exp-badge-open-source">🌐 Developer Growth</span>
+            <h3>Open-Source Exploration</h3>
+            <div class="exp-context">GitHub Community</div>
+            <p>
+              Actively exploring open-source repositories to understand standard Git branching models, clean PR practices, issue tracking, and how collaborative codebases maintain consistency and documentation quality.
+            </p>
+            <div class="exp-footer-tag">Git workflows &amp; codebase analysis</div>
+          </article>
+
+          <!-- Experience 2: College Community & Tech Activities -->
+          <article class="experience-card">
+            <span class="exp-type-badge exp-badge-campus">🚀 Campus Ecosystem</span>
+            <h3>Tech &amp; Entrepreneurship Activities</h3>
+            <div class="exp-context">Newton School of Technology</div>
+            <p>
+              Actively engaged in college technical circles, student builder sessions, and entrepreneurship initiatives, engaging with peers to explore technology trends, project partnerships, and practical product thinking.
+            </p>
+            <div class="exp-footer-tag">Peer learning &amp; collaborative building</div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Learning Journey Section
+         ====================================================================== -->
+    <section id="journey" class="section section-subtle" aria-labelledby="journey-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">05 / Growth</span>
+          <h2 id="journey-heading" class="section-title">Learning <em>Journey</em></h2>
+          <p class="section-desc">
+            A concise timeline charting my ongoing path from early curiosity to hands-on software development.
+          </p>
+        </header>
+
+        <div class="timeline">
+          
+          <!-- Step 1 -->
+          <div class="timeline-step">
+            <div class="timeline-node">01</div>
+            <div class="timeline-content">
+              <div class="timeline-phase">Phase 01 · First Spark</div>
+              <h3>Early Experiments with Code</h3>
+              <p>
+                My initial fascination with technology started with exploring HTML and the mechanics of the web. Seeing markup render instantly in a browser ignited an ongoing curiosity about software design.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="timeline-step">
+            <div class="timeline-node">02</div>
+            <div class="timeline-content">
+              <div class="timeline-phase">Phase 02 · Dedication</div>
+              <h3>Stepping into Computer Science</h3>
+              <p>
+                Deciding to pursue Computer Science formally led me to Newton School of Technology in Pune. Stepping into this structured academic environment gave me the platform to turn curiosity into disciplined engineering.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="timeline-step">
+            <div class="timeline-node">03</div>
+            <div class="timeline-content">
+              <div class="timeline-phase">Phase 03 · Core Fundamentals</div>
+              <h3>Programming Languages &amp; Web Standards</h3>
+              <p>
+                Diving deep into Python, C, and C++ to grasp memory management and logic flow, while simultaneously building modern, responsive web layouts using clean HTML and CSS.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="timeline-step">
+            <div class="timeline-node">04</div>
+            <div class="timeline-content">
+              <div class="timeline-phase">Phase 04 · Hands-on Projects</div>
+              <h3>Building AI &amp; Automation Systems</h3>
+              <p>
+                Venturing beyond static pages by connecting APIs, orchestrating n8n automation workflows, and deploying prototypes like TravelMind AI — learning by building real, working systems with teammates.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="timeline-step">
+            <div class="timeline-node">05</div>
+            <div class="timeline-content">
+              <div class="timeline-phase">Phase 05 · Looking Forward</div>
+              <h3>Deepening CS Rigour &amp; Open Source</h3>
+              <p>
+                Actively strengthening my Data Structures and Algorithms foundation, learning ReactJS, preparing for meaningful open-source contributions, and exploring practical, responsible applications of AI.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Beyond the Screen Section
+         ====================================================================== -->
+    <section id="beyond" class="section" aria-labelledby="beyond-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">06 / Personal Dimension</span>
+          <h2 id="beyond-heading" class="section-title">Beyond the <em>Screen</em></h2>
+          <p class="section-desc">
+            Creative passions that shape my perspective, rhythm, and attention to detail.
+          </p>
+        </header>
+
+        <div class="beyond-grid">
+          
+          <article class="beyond-card card-piano">
+            <div class="beyond-icon-wrap">🎹</div>
+            <h3>Piano</h3>
+            <p>
+              Playing the piano is where discipline meets expression. Practicing chords and dynamics demands the same focus and muscle memory that debugging complex logic requires.
+            </p>
+            <div class="beyond-detail">Classical &amp; contemporary melodies</div>
+          </article>
+
+          <article class="beyond-card card-music">
+            <div class="beyond-icon-wrap">🎵</div>
+            <h3>Music &amp; Songwriting</h3>
+            <p>
+              I love crafting melodies and exploring harmonies. Songwriting is an iterative process of testing arrangements until the feeling and message align naturally.
+            </p>
+            <div class="beyond-detail">Composition &amp; lyrical cadence</div>
+          </article>
+
+          <article class="beyond-card card-poetry">
+            <div class="beyond-icon-wrap">✍️</div>
+            <h3>Poetry &amp; Writing</h3>
+            <p>
+              Poetry trains an appreciation for precision — choosing the single right word rather than five unnecessary ones. That same economy applies directly to writing clean code.
+            </p>
+            <div class="beyond-detail">Reflective verse &amp; storytelling</div>
+          </article>
+
+          <article class="beyond-card card-reading">
+            <div class="beyond-icon-wrap">📖</div>
+            <h3>Reading</h3>
+            <p>
+              Reading across genres keeps me grounded and continually broadens how I view human problems, historical ideas, and emerging technological trends.
+            </p>
+            <div class="beyond-detail">Books, essays &amp; quiet reflection</div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Contact Section
+         ====================================================================== -->
+    <section id="contact" class="section section-subtle" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-badge">
+            <span>✦</span> Connect With Me
+          </div>
+
+          <h2 id="contact-heading" class="contact-title">
+            Have an idea worth building?
+          </h2>
+
+          <p class="contact-desc">
+            I'm always interested in learning, collaborating, and exploring interesting ideas. Whether it's a student project, an open-source initiative, or just a conversation about technology and music — feel free to reach out.
+          </p>
+
+          <div class="contact-channels">
+            <!-- Email link -->
+            <a href="mailto:shyamlibakale1001@gmail.com" class="contact-channel-card" aria-label="Send email to shyamlibakale1001@gmail.com">
+              <span class="channel-icon">✉️</span>
+              <span>shyamlibakale1001@gmail.com</span>
+            </a>
+
+            <!-- GitHub link -->
+            <a href="https://github.com/shyamlibakale1001-alt" target="_blank" rel="noopener noreferrer" class="contact-channel-card" aria-label="Visit Shyamli's GitHub profile">
+              <span class="channel-icon">🐙</span>
+              <span>github.com/shyamlibakale1001-alt</span>
+            </a>
+
+            <!-- LinkedIn link -->
+            <a href="https://www.linkedin.com/in/shyamlibakale/" target="_blank" rel="noopener noreferrer" class="contact-channel-card" aria-label="Visit Shyamli's LinkedIn profile">
+              <span class="channel-icon">💼</span>
+              <span>linkedin.com/in/shyamlibakale</span>
+            </a>
+          </div>
+
+          <div class="contact-status-bar">
+            <span class="status-dot-pulse"></span>
+            <span>Based in Pune, India · First-Year BTech @ Newton School of Technology</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-name">Shyamli Bakale</span>
+          <span class="footer-tagline">CS Student · Aspiring AI Developer · Music &amp; Piano Enthusiast</span>
+        </div>
+        <a href="#top" class="back-to-top" aria-label="Back to top of the page">
+          <span>Back to Top</span>
+          <span>↑</span>
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>Built with curiosity and a little bit of creativity.</p>
+        <p>&copy; 2025 Shyamli Bakale. Handcrafted with semantic HTML5 &amp; CSS3.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
